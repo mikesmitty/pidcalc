@@ -12,6 +12,7 @@ var testValues = []map[string]float64{
 	{"ku": 50, "tu": 1, "kp": 29.411764705882355, "ki": 58.82352941176471, "kd": 3.6764705882352944},
 }
 
+/*
 func Test_PrintValues(t *testing.T) {
 	p := new(ZieglerNichols)
 	testInputs := []struct{ ku, tu float64 }{
@@ -25,6 +26,7 @@ func Test_PrintValues(t *testing.T) {
 		t.Logf("{\"ku\": %v, \"tu\": %v, \"kp\": %v, \"ki\": %v, \"kd\": %v},\n", ti.ku, ti.tu, kp, ki, kd)
 	}
 }
+*/
 
 func Test_FromKuTu(t *testing.T) {
 	z := new(ZieglerNichols)
